@@ -86,7 +86,6 @@ public class blogCtl {
 	@RequestMapping(value="/blogPost", method=RequestMethod.GET)
 	public ModelAndView blogPost(ModelAndView M, String findPostId) {
 			
-		// List<blogPostEntity> result = blogPostEntitySvc.init();
 		blogPostEntity post = blogPostEntitySvc.searchFindId(findPostId);
 		String imgtitle = blogEntitySvc.searchImgTitle(findPostId);
 		
