@@ -56,7 +56,6 @@ public class blogCtl {
 	@RequestMapping(value="/blogDetail", method=RequestMethod.POST)
 	public ModelAndView blogDetail(@RequestParam Map<String, Object> param, ModelAndView M){
 		System.out.println("Map test : " + param.toString());
-		//		System.out.print("test : " + deleteNumber);
 		System.out.println("blogDetail page");
 		M.setViewName("blogDetail");
 		
