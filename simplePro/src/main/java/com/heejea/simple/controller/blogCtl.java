@@ -81,6 +81,21 @@ public class blogCtl {
 		return M;
 	}
 	
+	@ResponseBody
+	@RequestMapping(value="/tag", method=RequestMethod.GET)
+	public ModelAndView tag(ModelAndView M) {
+		M.setViewName("tag");
+		return M;
+	}
+	
+	@ResponseBody
+	@RequestMapping(value="/tag", method=RequestMethod.POST)
+	public ModelAndView tag(ModelAndView M, @RequestParam Map<String, Object> param) {
+		M.setViewName("tag");
+		
+		return M;
+	}
+	
 	
 	@ResponseBody
 	@RequestMapping(value="/blogPost", method=RequestMethod.GET)

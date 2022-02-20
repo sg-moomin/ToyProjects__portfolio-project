@@ -37,7 +37,7 @@
 								<div class="tagcloud">
 									
 									<c:forEach var="tags" items="${tag}">
-										<a href="#" class="tag-cloud-link">${tags}</a>
+										<a href="tag" class="tag-cloud-link">${tags}</a>
 									</c:forEach>
 									<!-- 
 									<a href="#" class="tag-cloud-link">Tistory</a> <a href="#"
