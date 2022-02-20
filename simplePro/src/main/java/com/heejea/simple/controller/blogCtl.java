@@ -85,6 +85,7 @@ public class blogCtl {
 	@RequestMapping(value="/tag", method=RequestMethod.GET)
 	public ModelAndView tag(ModelAndView M) {
 		M.setViewName("tag");
+		
 		return M;
 	}
 	
