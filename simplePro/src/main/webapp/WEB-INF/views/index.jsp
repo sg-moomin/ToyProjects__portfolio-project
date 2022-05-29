@@ -2,8 +2,9 @@
 	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
-
+<!--  
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+-->
 <head>
 <title>[sg-moomin] lumin_daily </title>
 <%@include file="footer/bootstrap.jsp"%>
